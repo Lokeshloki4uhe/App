@@ -39,7 +39,7 @@ with col2:
     output_text_area = st.empty()
 
 # Google Generative AI configuration
-genai.configure(api_key="AIzaSyCIyBzXRMIysjq3YHs4z3PfbR20NkwyzvY")
+genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 # Initialize webcam
