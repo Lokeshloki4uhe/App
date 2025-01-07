@@ -1,7 +1,7 @@
-streamlit
-opencv-python-headless
-cvzone
-mediapipe
-pillow
-google-generativeai
-numpy
+streamlit==1.31.0
+opencv-python-headless==4.8.1.78
+cvzone==1.6.1
+mediapipe==0.10.9
+pillow==10.2.0
+google-generativeai==0.3.2
+numpy==1.26.3
